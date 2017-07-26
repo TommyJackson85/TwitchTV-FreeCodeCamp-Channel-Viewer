@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Tells the browser what the title of this page should be. -->
+  <title>Twitch TV Channel Viewer</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--SCSS/CSS; FrontAwesome/CSS; Bootstrap Map -->
+<link href="css/main.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-theme.css.map" rel="stylesheet" media="screen">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+  
+<body>
+  <div id='header' class="container-fluid">
+  <img id="FCClogo" src="https://www.freecodecamp.com/design-style-guide/downloads/freeCodeCamp-alternative.png">
+<h1>on <img id="twitchLogo" src="http://pre11.deviantart.net/b72b/th/pre/f/2016/063/a/6/logo_by_maxigamer-d9tx6iz.png"></h1>
+  </div>
+
+<div id="channels" class="container-fluid"> 
+   
+   <div class="otherLinks">
+    <h4 id="linkFCC" class="subHeaders"></h4>
+    <h4 class="subHeaders">Twitch TV channels following Free Code Camp:</h4>
+   </div>
+
+   <div class='span10'><div id="online"></div></div>
+   <div><div id="offline"></div></div>
+   <div><div id="nonUsers"></div></div>
+ </div>
+
+    <div id="copywrite"><h6> &#9400; Thomas Jackson</h6>
+     <h6> Images: &#9400; Twitch TV; &#9400; FreeCodeCamp;</h6>
+      <h6>(Project for Free Code Camp, Full Stack course)</h6>
+  </div>
+</body>
+
+  <!--jQuery-->
+  <script src="js/jQuery.js"></script>
+<!--BOOTSTRAP JS LINK -->
+  <script src="js/bootstrap.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+  <!-- More on helper.js in the class -->
+  <script src="js/twitchChannelApp.js"></script>
+</html>

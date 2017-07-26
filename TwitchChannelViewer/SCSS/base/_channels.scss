@@ -1,0 +1,49 @@
+.online { 
+   h6 {font-size: 1em;}} //sets size for smallest scale
+  .subHeaders {
+    padding: 1px 2% 1px 3%;
+    font-size: 1em;}
+   #channels {
+  margin: 0px 5% 0px 5%;
+  background:#9b59b6;/*lightPurple;*/}
+
+.online, .offline, .error{
+  border: solid 1px;
+  min-height:50px;
+  h6 {margin: 10px 20px 10px 10px;
+  min-height:50px;
+    }
+  }
+
+  .online { 
+background: #2ecc71;}
+.offline { 
+background: #3498db;}
+.error { background: #95a5a6;}/*lightGrey*/
+
+.online, .offline{
+a:link {
+    color: #c0392b;
+}
+/* visited link */
+a:visited {
+    color: #c0392b;
+}
+/* mouse over link */
+a:hover {
+    color: #e74c3c;
+}}/*lightOrange*/
+
+#linkFCC {  
+a:link {
+    color: #27ae60;
+}
+/* visited link */
+a:visited {
+    color: #27ae60;
+}
+/* mouse over link */
+a:hover {
+    color: #2ecc71;
+}}
+

@@ -1,0 +1,158 @@
+
+@media screen and (min-width: 360px) { 
+
+.subHeaders{
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 375px) { 
+.online, .offline, .error { 
+  h6 {
+    font-size: 1.1em;
+  }
+}
+
+}
+@media (min-width: 412px) { 
+
+}
+@media (min-width: 414px) { 
+
+}
+@media (min-width: 568px) { 
+
+	#header{
+		h1{
+			font-size: 3em;
+		}
+	}
+
+.online, .offline, .error { 
+margin: 0px 8px 0px 8px ; 
+}
+
+.subHeaders {
+		font-size: 1.6em;}
+
+		.online{ 
+ min-height:80px ;
+			.onlineLogo,{
+   width: 70px;
+   display: inline;
+float: left;
+padding:5px 0px 5px 5px;}
+
+  h6 {
+    font-size: 1.5em;
+  }
+}
+
+	.offline, .error { 
+  h6 {
+    font-size: 1.3em;
+  }
+}
+
+#copywrite {
+	padding: 10px 0px 10px 40px;
+}
+
+}
+@media (min-width: 640px) { 
+
+}
+@media (min-width: 667px) { 
+
+.online, .offline, .error { 
+margin: 0px 20px 0px 20px ; 
+}
+
+}
+@media (min-width: 732px) { 
+
+}
+@media (min-width: 736px) { 
+
+
+}
+@media (min-width: 768px) { 
+
+	.otherLinks {
+	margin: 1px 0px 1px 6%;
+.subHeaders {
+		font-size: 1.6em;
+	}}
+
+		.online { 
+margin: 10px 20px 0px 7.5%;
+ max-width: 550px;
+ min-height: 110px;
+//min-height: 110px;
+
+.onlineLogo {
+	width: 100px;
+}
+
+ h6 {
+    font-size: 1.4em;
+  }
+
+}
+
+#offline{
+	padding: 10px 0px 0px 0px;
+}
+
+	.offline, .error { 
+margin: 0px 0px 0px 2% ;
+float: left; 
+width: 47.1%;
+h6 {
+	font-size: 1.1em;
+}}
+}
+
+@media (min-width: 1024px) { 
+.otherLinks {
+	margin: 1px 0px 1px 7%;
+.subHeaders {
+		font-size: 2em;
+	}}
+
+	.online { 
+margin: 10px 20px 0px 10%;
+ max-width: 700px;
+ min-height: 110px;
+//min-height: 110px;
+.onlineLogo {
+	width: 100px;
+}
+ h6 {
+    font-size: 1.6em;
+  }}
+
+#header{
+	h1 {
+		font-size: 4em;
+	}}
+
+	.offline, .error { 
+margin: 0px 0px 0px 6% ;
+float: left; 
+width: 40.65%;
+h6 {
+	font-size: 1.3em;
+}}
+#copywrite {
+	padding: 20px 0px 20px 90px;
+}
+}
+@media (min-width: 1366px) { 
+	.otherLinks {
+	margin: 1px 0px 1px 18%;}
+
+	.online { 
+margin: 10px 20px 0px 20%;
+}
+}

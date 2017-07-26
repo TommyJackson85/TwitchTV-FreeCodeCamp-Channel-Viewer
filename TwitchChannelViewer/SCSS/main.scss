@@ -1,0 +1,17 @@
+/* 
+	Resume Bootstrap Sass Theme
+	Author: Tommy Jackson
+	Version
+*/
+/*
+BASE - Base Styles, Variable, mixins, etc 
+*/
+@import 'base/_body.scss';
+@import 'base/_header.scss';
+@import 'base/_channels.scss';
+@import 'base/_copywrite.scss';
+
+/* LAYOUTS - Page layout styles */
+@import 'layouts/_images.scss';
+@import 'layouts/_mediaQueries.scss';
+
