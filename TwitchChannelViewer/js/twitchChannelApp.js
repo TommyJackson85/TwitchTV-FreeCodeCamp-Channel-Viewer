@@ -2,14 +2,13 @@ $(document).ready(function() {
 
   var followers = ["brunofin", "comster404", "gamereactor", "burkeblack", "nick28t", "wintergaming"];
   // extra names put into followers Array: bronofin andn comster404 are users who dont exist anymore. The other three users dont follow FreeCodeCamp, they are used to make sure the app still works.
-  var freeCodeCamp = "/freecodecamp"; //extention for FCC links
   var apiLink = "https://wind-bow.glitch.me/twitch-api"; //base link for api.
-  var streamsLinkFCC = apiLink + "/streams" + freeCodeCamp;
+  var streamsLinkFCC = apiLink + "/streams/freecodecamp";
   // console.log(streamsLinkFCC);
   
   var followerLinkChannel;
   var followerLinkStream;
-  var usersChannels = apiLink + "/users" + freeCodeCamp + "/follows/channels/";
+  var usersChannels = apiLink + "/users/freecodecamp/follows/channels/";
   //usersChannels links to the list of channels of FCC's followers
   //console.log(usersChannels);
   var streamsLink = apiLink + "/streams/"; //add user names at the end and an optional callBack var if required
