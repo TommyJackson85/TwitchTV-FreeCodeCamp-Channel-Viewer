@@ -6,12 +6,10 @@
 /*
 BASE - Base Styles, Variable, mixins, etc 
 */
-@import 'base/_body.scss';
-@import 'base/_header.scss';
-@import 'base/_channels.scss';
-@import 'base/_copywrite.scss';
-
-/* LAYOUTS - Page layout styles */
-@import 'layouts/_images.scss';
-@import 'layouts/_mediaQueries.scss';
+@import 'layout/_body.scss';
+@import 'layout/_header.scss';
+@import 'layout/_channels.scss';
+@import 'layout/_copywrite.scss';
+@import 'layout/_images.scss';
+@import 'layout/_mediaQueries.scss';
 
