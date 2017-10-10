@@ -58,7 +58,7 @@ $(document).ready(function() {
               )
           );
         };
-        var optionalLogo = function optionalLogo (logoLink){
+        var optionalLogo = function (logoLink){
           //if users don't have a logo.
           if (logoLink === null) {
                 logo =
